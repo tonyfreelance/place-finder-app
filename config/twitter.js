@@ -1,6 +1,6 @@
 module.exports.twitter = {
     consumer_key: 'RqpuNKoYuYZEdAMI8UCRPLF43',
     consumer_secret: 'gdDxZlzVbIlbdEgQ2ZNqump22hm1FPmWW8GrarvoUjGFMgEP7I',
-    callback: 'https://sails-test-tonyfreelance-1.c9users.io/auth/twitter/callback',
+    callback: 'https://tony-place-finder.herokuapp.com/auth/twitter/callback',
     tokenSecret: 'tonyfreelance'
 };
