@@ -34,6 +34,31 @@ module.exports.routes = {
 
   '/': {
     view: 'homepage'
+  },
+  
+  'POST /auth/twitter': {
+    controller: 'UserController',
+    action: 'twitter'
+  },
+  'GET /auth/twitter/callback': {
+    controller: 'UserController',
+    action: 'twitterCallback'
+  },
+  
+  'GET /count-going': {
+    controller: 'PlaceController',
+    action: 'countGoing'
+  },
+  
+  'GET /my-going': {
+    controller: 'PlaceController',
+    action: 'myGoing'
+  },
+  
+  '/*': {
+    controller: 'UserController',
+    action: 'redirectAll',
+    skipAssets: true
   }
 
   /***************************************************************************
