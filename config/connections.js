@@ -58,11 +58,11 @@ module.exports.connections = {
   ***************************************************************************/
   someMongodbServer: {
     adapter: 'sails-mongo',
-    host: 'localhost',
-    port: 27017,
-    // user: 'username',
-    // password: 'password',
-    database: 'place-finder'
+    host: 'ds025449.mlab.com',
+    port: 25449,
+    user: 'heroku_gcdvkkdp',
+    password: '619rlmqsg9k6h5rg5crgegdouk',
+    database: 'heroku_gcdvkkdp'
   },
 
   /***************************************************************************
